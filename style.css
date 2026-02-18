@@ -7,7 +7,12 @@ body{
     width: 100vw;
     height: 100vh;
 
-    background: #1a1b27;
+    background: linear-gradient(
+        to bottom,
+        #393939 0%,
+        #0a0a0a 100%
+      );
+
     user-select: none;
     -webkit-app-region: drag;
 }
@@ -19,4 +24,9 @@ body{
 button, input, textarea, select{
     -webkit-app-region: no-dag;
     cursor: pointer;
+}
+
+
+.wave-container{
+    position: fixed;
 }
