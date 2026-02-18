@@ -29,4 +29,23 @@ button, input, textarea, select{
 
 .wave-container{
     position: fixed;
+    z-index: 2;
+}
+
+.person{
+    position: fixed;
+    z-index: 10;
+}
+.glass{
+    position: fixed;
+    z-index: 1;
+}
+
+.container-controls{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    z-index: 3;
+
+
 }
